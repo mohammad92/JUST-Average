@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">JUST Average</string>
+    <string name="action_settings">Settings</string>
+    <string name="version_caption">Version:</string>
+    <string name="version">1.00</string>
+    <string name="hrs">عدد الساعات التراكمية الحالي</string>
+    <string name="avg">المعدل التراكمي الحالي</string>
+    <string name="course">المواد</string>
+    <string name="credit_hours">عدد الساعات</string>
+    <string name="old_mark">معادة</string>
+    <string name="new_mark">جديدة</string>
+    <string name="Sfinal">المعدل</string>
+    <string name="sanow">عدد الساعات التراكمية الجديد</string>
+    <string name="avgnow">المعدل التراكمي الجديد</string>
+    <string name="halet">الوضع الحالي للطالب</string>
+    <string name="gdemh">العلامةالقديمة</string>
+    <string-array name="course_array">
+        <item> </item>
+        <item>جديدة</item>
+        <item>معادة</item>
+    </string-array>
+    <string-array name="hours_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- About me -->
+    <string name="about">About</string>
+    <string name="just">"JUST Average is small app to calculate your \n"
+                                "                     cumulative average."
+    </string>
+    <string name="me">Developed by Electrical Engineer &#169; Mohammad Afaneh</string>
+</resources>
