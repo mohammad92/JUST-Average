@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">JUST Average</string>
+    <string name="courses">المواد المسجلة</string>
+    <string name="credit_hours">عدد الساعات</string>
+    <string name="old_mark">العلامة الحالية</string>
+    <string name="new_mark">العلامة الجديدة</string>
+    <string-array name="course_array">
+        <item>إختر</item>
+        <item>جديدة</item>
+        <item>معادة</item>
+        <item>إحذف</item>
+    </string-array>
+    <string-array name="hours_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="version_caption">الإصدار:</string>
+    <string name="hrs">عدد الساعات التراكمية الحالي</string>
+    <string name="avg">المعدل التراكمي الحالي</string>
+    <string name="sanow">عدد الساعات التراكمية الجديد</string>
+    <string name="avgnow">المعدل التراكمي الجديد</string>
+    <!-- About me -->
+    <string name="about">حول التطبيق</string>
+    <string name="just">"تطبيق لحساب المعدل التراكمي</string>
+    <string name="me">تطورير وتصميم المهندس محمد عفانة</string>
+</resources>
