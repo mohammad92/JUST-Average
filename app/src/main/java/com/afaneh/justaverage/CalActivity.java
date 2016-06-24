@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -150,6 +151,11 @@ public class CalActivity extends AppCompatActivity {
                 Global.MarkNew9 = Float.parseFloat(Marknew9.getText().toString());
                 Global.MarkOld10 = Float.parseFloat(Markold10.getText().toString());
                 Global.MarkNew10 = Float.parseFloat(Marknew10.getText().toString());
+
+                // check if the fields are empty
+                if (TextUtils.isEmpty(Markold1.getText().toString()) || TextUtils.isEmpty(Markold2.getText().toString()) || TextUtils.isEmpty(Markold3.getText().toString()) || TextUtils.isEmpty(Markold4.getText().toString())|| TextUtils.isEmpty(Markold5.getText().toString())|| TextUtils.isEmpty(Markold6.getText().toString())|| TextUtils.isEmpty(Markold7.getText().toString()) || TextUtils.isEmpty(Markold8.getText().toString()) || TextUtils.isEmpty(Markold9.getText().toString()) || TextUtils.isEmpty(Markold10.getText().toString()) || TextUtils.isEmpty(Marknew1.getText().toString()) || TextUtils.isEmpty(Marknew2.getText().toString()) || TextUtils.isEmpty(Marknew3.getText().toString()) || TextUtils.isEmpty(Marknew4.getText().toString()) || TextUtils.isEmpty(Marknew5.getText().toString()) || TextUtils.isEmpty(Marknew6.getText().toString()) || TextUtils.isEmpty(Marknew7.getText().toString()) || TextUtils.isEmpty(Marknew8.getText().toString()) || TextUtils.isEmpty(Marknew9.getText().toString()) || TextUtils.isEmpty(Marknew10.getText().toString())) {
+                    return;
+                }
 
             }
         });

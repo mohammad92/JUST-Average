@@ -52,6 +52,8 @@ public class FinalActivity extends AppCompatActivity {
 			public void onClick(View v) {
 				Intent myIntent = new Intent(v.getContext(), CalActivity.class);
 				startActivityForResult(myIntent, 0);
+				Anew.setText("0");
+				Hnew.setText("0");
 			}
 		});
 	}

@@ -37,7 +37,7 @@
         android:id="@+id/app_name"
         android:layout_alignParentTop="true"
         android:layout_marginTop="8dp"
-        android:textColor="#ff006432"
+        android:textColor="@color/colorPrimaryDark"
             android:layout_gravity="center_horizontal" />
 
         <TableLayout
